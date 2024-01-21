@@ -40,22 +40,26 @@ pillow~=9.4.0
 tqdm~=4.65.0
 pyyaml~=6.0
 ```
-## Installation Guide
+## How to Install and Run
 1. Clone the repository.
 ```
 $ git clone https://github/repository/link
 ```
-2. Install the required dependencies.
+2. Get into the Project Directory
+```
+$ cd Object-Detection-w-YOLOv8
+```
+3. Install the required dependencies.
 ```
 $ pip install -r requirements.txt
 ```
-3. Run the app.
+4. Run the app.
 ```
 $ streamlit run app.py
 ```
-4. Choose the mode and model.
-5. Upload a video if **Video File** mode is selected.
-6. Click the ```Start Detecting``` button.
+5. Choose the mode and model.
+6. Upload a video if **Video File** mode is selected.
+7. Click the ```Start Detecting``` button.
 ## Use Cases
 - It can be used to count cars entered and left a parking lot.
 - To count live stock.
